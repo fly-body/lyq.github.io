@@ -62,7 +62,7 @@ export default {
 <style lang="less" scoped>
 .login{
   height: 100%;
-  background-color: #bfa;
+  background-color: #fff;
   .login-bc{
     width: 100%;
     height: 100%;
