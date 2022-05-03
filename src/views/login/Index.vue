@@ -53,7 +53,7 @@ export default {
       this.$refs.loginFormRef.resetFields()
     },
     login(){
-      console.log("denglu");
+      this.$router.push('/layout');
     }
   }
 }
