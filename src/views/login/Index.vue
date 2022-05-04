@@ -53,7 +53,11 @@ export default {
       this.$refs.loginFormRef.resetFields()
     },
     login(){
-      this.$router.push('/layout');
+      if(this.loginForm.username === 'admin' && this.loginForm.password === 'admin'){
+        this.$router.push('/layout');
+      }else{
+        alert("账号：admin,密码：admin")
+      }
     }
   }
 }
